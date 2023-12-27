@@ -59,7 +59,9 @@ function arithmetic() {
 
 for (let index = 0; index < number.length; index++) {
     number[index].addEventListener('click', function(e){
-        console.log(e.target)
+        const clickedNumber = e.target;
+        document.getElementById('result').textContent = clickedNumber
+        console.log(clickedNumber)
     });
         
     
