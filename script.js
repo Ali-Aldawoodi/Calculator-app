@@ -7,6 +7,7 @@ const addEl = document.getElementById('+');
 const divideEl = document.getElementById('/');
 const multiplyEl = document.getElementById('*');
 const resultEl = document.getElementById('result');
+const number = document.querySelectorAll('.numbers')
 
 
 
@@ -55,7 +56,16 @@ function arithmetic() {
     
 
 }
-console.log(resultEl.innerHTML)
+
+for (let index = 0; index < number.length; index++) {
+    number[index].addEventListener('click', function(e){
+        console.log(e.target)
+    });
+        
+    
+        
+    
+};
 
 arithmetic();
 
