@@ -1,17 +1,37 @@
+* {
+    background-color: antiquewhite;
+    font-size: 105%;
+}
+
 body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh
-};
+    height: 100vh;
+}
 
 .calculator-container {
     margin: auto;
-    
-};
+    border: 1px solid;
+}
 
-#display {
-    border: 2px solid black;
-    width: 12%;
-    height: 10%;
+.all-numbers {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.result-container {
+    height: 20px;
+    border: 1px solid;
+
+}
+
+.all-operations {
+    padding-top: 5%;
+}
+
+#heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
