@@ -1,7 +1,10 @@
 # Calculator-app
 
-// Given a javascript app that calculates arithmetic
-when I can press different numbers and different arithmetics 
-then i get a total
-when each button is 'get element by id' 
-then each number will register
+## Description
+User will be able to click any number and/or operator and have the display update with each clicked button. Once finished, user will be able to submit and get the answer of the math equation displayed.
+
+## Screenshot
+![Alt text](calculator-bg-img.png)
+
+## Link
+Github- https://github.com/Ali-Aldawoodi/Calculator-app
